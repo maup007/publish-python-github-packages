@@ -24,7 +24,7 @@ jobs:
 
       - name: publish Package
         run: |
-          twine upload --verbose --repository-url https://github.com/maup007/publish-python-github-packages/
+          twine upload --verbose --repository-url https://github.com/maup007/publish-python-github-packages dist/*
         env:
           TWINE_USERNAME: maup007
           TWINE_PASSWORD: ${{secrets.JAVA_TOKEN}}
