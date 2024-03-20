@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-  name='hello-world'
+  name='hello-world',
   version='0.1',
   packages=['hello'],
   description='sample pythin package to print "Hello, world!"',
