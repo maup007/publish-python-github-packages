@@ -1,9 +1,5 @@
-name: Publish Python Package
-on:
-  push:
-    branches:
-      - main
-    
+name: Publish Python Package to github packages
+on: push   
 jobs:
   build:
     runs-on: ubuntu-latest
