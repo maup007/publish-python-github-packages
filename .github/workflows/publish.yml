@@ -26,6 +26,6 @@ jobs:
         run: |
           twine upload --verbose --repository-url https://pypi.pkg.github.com/maup007/publish-python-github-packages dist/*
         env:
-#          TWINE_USERNAME: maup007
+          USERNAME: maup007
           GITHUB_TOKEN: ${{secrets.JAVA_TOKEN}}
 
