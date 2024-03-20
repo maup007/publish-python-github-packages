@@ -27,5 +27,5 @@ jobs:
           twine upload --verbose --repository-url https://github.com/maup007/publish-python-github-packages dist/*
         env:
           TWINE_USERNAME: maup007
-          TWINE_PASSWORD: ${{secrets.JAVA_TOKEN}}
+          TWINE_PASSWORD: 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
 
