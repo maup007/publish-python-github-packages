@@ -6,6 +6,6 @@ setup(
   packages=['hello'],
   description='sample pythin package to print "Hello, world!"',
   author='maup007',
-  author_email='maup007@tdc.dk',
+  author_email='maup@tdc.dk',
   url='https://github.com/maup007/publish-python-github-packages',
 )
