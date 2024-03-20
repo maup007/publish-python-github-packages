@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
   name='hello-world',
   version='0.1',
-  packages=['hello'],
+  packages=['hello-world'],
   description='sample pythin package to print "Hello, world!"',
   author='maup007',
   author_email='maup@tdc.dk',
