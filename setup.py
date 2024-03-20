@@ -5,7 +5,7 @@ setup(
   version='0.1',
   packages=[''],
   description='sample python package to print "Hello, world!"',
-  author='maup007',
+  author='maup007'
   author_email='maup@tdc.dk',
   url='https://github.com/maup007/publish-python-github-packages',
 )
